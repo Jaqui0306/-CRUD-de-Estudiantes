@@ -8,8 +8,8 @@
 
 <div class="bg-slate-900 p-6 rounded-xl">
 
-<form action="/update/{{ $estudiante->id }}" method="POST">
-@csrf
+<form action="/update/{{ $estudiante->id }}" method="GET">
+
 
 <input type="text" name="nombre" value="{{ $estudiante->nombre }}"
 class="w-full mb-3 p-3 rounded bg-slate-800">

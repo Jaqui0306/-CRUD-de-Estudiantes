@@ -8,8 +8,8 @@
 
 <div class="bg-slate-900 p-6 rounded-xl">
 
-<form action="/carreras/store" method="POST">
-@csrf
+<form action="/carreras/store" method="GET">
+
 
 <input type="text" name="nombre" placeholder="Nombre"
 class="w-full mb-3 p-3 rounded bg-slate-800">
